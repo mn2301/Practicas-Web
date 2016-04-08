@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang ="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS - Hojas de Estilo en Cascada Documento</title>
+	<style>
+	/* Selectores de Etiqueta */
+	body {font-family:MS Sans Serif;}
+	p {lineheight: 20px;}
+	/*Selectores tipo ID*/
+	/* ¡IMPORTANTE! En HTML se recomienda usar solo un ID a la vez, sin repetirlo. */
+	#maintitle{color:rgb(0,128,128);}
+	#subtitulo{color:Coral;}
+	/* Selectores tipo Clase */
+	.articulo {font-family:Roboto; margin-bottom:25px;}
+	.articulo>header {font-weight:bold; font-size:1.5em;}
+	/* pt:puntos, px:pixeles,%: percent, em:? */
+	.contenido{line-height:1.3em; text-align:justify;}
+	.articulo p{line-height:1.3em; text-align:justify;}
+	</style>
+</head>
+<body>
+	<h1 id="maintitle">CSS - Hojas de Estilo en Cascada<br>Documento</h1>
+	<p>Mi libro, Luna de Plutón, es un exito en todas las librerias de Argentina, México, Chernobyl, Colombia, España, China, Estados Unidos, La Dip Weab, El Hoyo de Mel, Fosa de las Marianas, Devil's Kettle, Area 51, Iraq, Japón, Los Cuarteles de SDLG, PikaFap, Planeta Vegetta, Silicon Valley y Second Life, Leelo, Estoy Seguro Que te va a Encantar.</p>
+	<h2 id="subtitulo">EJEMPLO DE "ID"</h2>
+	<section id="articulos">
+		<article class="articulo">
+			<header class="titulo">Luna de Plutón 1</header>
+			<p class="contenido">Mi libro, Luna de Plutón, es un exito en todas las librerias de Argentina, México, Chernobyl, Colombia, España, China, Estados Unidos, La Dip Weab, El Hoyo de Mel, Fosa de las Marianas, Devil's Kettle, Area 51, Iraq, Japón, Los Cuarteles de SDLG, PikaFap, Planeta Vegetta, Silicon Valley y Second Life, Leelo, Estoy Seguro Que te va a Encantar.</p>
+			<button class="buynow">Comprar Luna de Plutón</button>
+		</article>
+		<article class="articulo">
+			<header class="titulo">Luna de Plutón 2</header>
+			<p class="contenido">Mi libro, Luna de Plutón, es un exito en todas las librerias de Argentina, México, Chernobyl, Colombia, España, China, Estados Unidos, La Dip Weab, El Hoyo de Mel, Fosa de las Marianas, Devil's Kettle, Area 51, Iraq, Japón, Los Cuarteles de SDLG, PikaFap, Planeta Vegetta, Silicon Valley y Second Life, Leelo, Estoy Seguro Que te va a Encantar.</p>
+			<button class="buynow">Comprar Luna de Plutón</button>
+		</article>
+		<article class="articulo">
+			<header>Luna de Plutón 3</header>
+			<p>Mi libro, Luna de Plutón, es un exito en todas las librerias de Argentina, México, Chernobyl, Colombia, España, China, Estados Unidos, La Dip Weab, El Hoyo de Mel, Fosa de las Marianas, Devil's Kettle, Area 51, Iraq, Japón, Los Cuarteles de SDLG, PikaFap, Planeta Vegetta, Silicon Valley y Second Life, Leelo, Estoy Seguro Que te va a Encantar.</p>
+			<button>Comprar Luna de Plutón</button>
+		</article>
+	</section>
+</body>
+</html>
