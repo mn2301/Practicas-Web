@@ -4,6 +4,12 @@
 	padding: 10px;
 	margin: 10px;
 }*/
+/*RESET CSS*/
+h1,h2,h3,h4,h5,h6,p,figure{
+    margin: 0;
+    border: 0;
+}
+
 .container{
 	width: 920px;
 	margin: 0 auto;}
@@ -20,8 +26,7 @@
 	align-content: flex-start;
 	align-items: center;}
 #titulos *{
-	margin: 0;
-	font-weight: Normal;}
+	margin: 0;}
 #encabezado figure{
 	margin: 0;}
 #encabezado h1{ font-size:1.2em;}
@@ -32,21 +37,20 @@
     background-color:darkgray;
 	height: 50px;
 	display: flex;
-	justify-content: space-between;
-	align-content: center;
+	justify-content: center;
 	}
 #contenido{
 	}
 #nota-importante{
 	height: 300px;
 	background-color:white;
-    margin 20px 0;
+    margin: 10px 0;
     /*Box Shadow: Horizontal, Vertical*/
     box-shadow: 0 0 15px darkgray;
 	}
-#nota-importante img{
+#nota-importante>img{
     align-content: center;
-	border: 10px;
+    border: 10px solid white;
 	}
 #notas-secundarias{
 	min-height: 300px;
@@ -58,19 +62,31 @@
 #notas-secundarias article{
     display: flex;
 }
-#notas-secundarias figure{
-    margin: 0;
-    position: absolute;
+.titulo-nota-secundaria{
+    font-size: 1.7em;
+    line-height: 0.9em;
+    font-variant: small-caps;
 }
-#notas-secundarias span{
+.cuerpo-nota-secundaria{
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.imagen-nota-secundaria{
+    margin: 0;
     position: relative;
+}
+.sombra-imagen{
+    box-shadow: 
+}
+.imagen-nota-secundaria span{
+    position: absolute;
     top: 10px;
     padding: 5px 10px;
     background-color: lightgray;
     left: -5px;
 }
 #publicidad{
-	height: 300px;
+	min-height: 300px;
 	width:220px;
 	display: inline-block;
 	float: right;
