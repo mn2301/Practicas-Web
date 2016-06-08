@@ -13,7 +13,7 @@
 			<!-- Una ruta relativa enlaza a la raiz del sitio -->
 			<!-- Una ruta absoluta enlaza a la ruta completa del archivo -->
 			<img src="images/logo_sep.png" alt="logotipo Sep">
-			</figure>
+        </figure>
 		<div id="titulos">
 			<h1>Sitio Oficial del CETis No. 108</h1>
 			<h2>Subsecretaría de Educación Media Superior</h2>
@@ -23,10 +23,10 @@
 		</div>
 		<div id="busqueda">
 			<figure>
-			<img src="images/sems_dgeti.png">
-			<input type="text" name="busqueda" id="Busqueda">
+                <img src="images/sems_dgeti.png">
+            </figure>
+			<input type="text" name="search" id="search">
 			<button>Buscar</button>
-			</figure>
 		</div>
 	</header>
 	<nav id="menu">
@@ -53,8 +53,9 @@
 		</ul>
 	</nav>
 	<main id="contenido">
-	<section id="nota-importante"><img src="images/nota-importante.jpg"</section>
-	<section id="notas-secundarias">
+	<section id="nota-importante"><img src="images/nota-importante.jpg"></section>
+	   <div class="flexible">
+        <section id="notas-secundarias">
         <article>
             <figure class="imagen-nota-secundaria">
                 <img class="sombra-imagen" src="images/Notas/1/00001_tmb.jpg" alt="Imagen">
@@ -125,6 +126,10 @@
         </article>
     </section>
 	<aside id="publicidad">
+                <div id="redes-sociales">
+                <a href="http://facebook.com/cetis108" class="facebook">Facebook</a>
+                <a href="http://twitter" class="twitter">Twitter</a>
+                </div>
                 <a href="#">
                     <img class="sombra-imagen" src="images/publicidad/banner-cdeciencia.png" alt="Convocatoria" width="220px">
                 </a>
@@ -136,11 +141,35 @@
                 </a>
                 <a href="#">
                     <img class="sombra-imagen" src="images/publicidad/prepa_en_linea_2016_vertical.jpg" alt="Preparatoria en Línea" width="220px">
-                </a></aside>
+                </a>
+    </aside>
+    </div>
+            <section id="programas">
+                 <figure>
+                     <a href="#">
+                    <img src="images/programas/programa-abandono-escolar.jpg"alt="abandono escolar" class="sombra-imagen">     
+                     </a>
+                 </figure>
+                 <figure>
+                     <a href="#">
+                        <img src="images/programas/programa-becas-media-superior.jpg"alt="becas media superior" class="sombra-imagen"> 
+                     </a>
+                 </figure>
+                  <figure>
+                     <a href="#">
+                        <img src="images/programas/programa-decide-tus-estudios.jpg"alt="decide tus estudios" class="sombra-imagen"> 
+                     </a>
+                 </figure> 
+                  <figure>
+                     <a href="#">
+                        <img src="images/programas/programa-prepa-videos.jpg"alt="prepa videos" class="sombra-imagen"> 
+                     </a>
+                 </figure>
+              </section>
 	</main>
 	<footer id="pie">
         <div id="politicas">
-            <p><abbr title="Centro de Estudios Tecnológicos Industrial y de Servicios No. 108">CETis!08</abbr> · Guasave, Sinaloa, México. · Algunos Derechos Reservados &copy; · 2016 Politicas de Privacidad</p>
+            <p><abbr title="Centro de Estudios Tecnológicos Industrial y de Servicios No. 108">CETis 108</abbr> · Guasave, Sinaloa, México. · Algunos Derechos Reservados &copy; 2016 · Politicas de Privacidad</p>
         </div>
         <div id="separador-sems">
             <a id="logo-sems" href="http://www.sems.gov.mx" target="blank">Subsecretaría de Educación Media Superior</a>
